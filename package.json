@@ -1,0 +1,25 @@
+{
+  "name": "cryptotrade",
+  "version": "0.0.1",
+  "description": "Buy and sell crypto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clemhff/cryptotrade.git"
+  },
+  "author": "Clement hoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clemhff/cryptotrade/issues"
+  },
+  "homepage": "https://github.com/clemhff/cryptotrade#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "pg": "^8.5.1",
+    "technicalindicators": "^3.1.0"
+  }
+}
